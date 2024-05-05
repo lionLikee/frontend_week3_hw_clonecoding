@@ -1,7 +1,9 @@
+import { Carrotmarket } from "./components/Carrotmarket";
+
 function App() {
   return (
     <div>
-      hello world
+      <Carrotmarket />
     </div>
   );
 }

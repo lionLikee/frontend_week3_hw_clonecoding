@@ -1,0 +1,174 @@
+* {
+    font-family: "Noto Sans KR";
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black
+ }
+
+.header{
+    width:1280px;
+    height:86px;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+
+.logo_pic{
+    width:100px;
+    height:50px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color:gray;
+}
+
+.nav li{
+    list-style-type: none;
+    margin-left: 35px;  /*리스트들 간 거리 조절*/
+    font-size: 19px;  
+}
+
+.orange_alba{
+    color:#fa6616;
+}
+
+.inputFind{
+    width:300px;
+    height:50px;
+    margin-left: 210px;
+    margin-top: 16px;
+}
+
+.findInput{
+    width:280px;
+    height:40px;
+    font-size: 17px;
+}
+
+.chat{
+    width:100px;
+    height:50px;
+    margin-top: 16px;
+}
+
+.beginchat{
+    width:80px;
+    height:43px;
+    font-size: 17px;
+}
+
+.notice_up{
+    width:1700px;
+    height:300px;
+    display: flex;
+    flex-direction: row;
+    background-color: wheat;
+}
+
+.content1{
+    width:390px;
+    height:300px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    background-color: wheat;
+}
+
+.upBtn{
+    width:90px;
+    height:37px;
+    background-color: #fa6616;
+    color: white;
+    border: 0.2px solid #fa6616;
+    border-radius: 10px;
+}
+
+.notice_pic{
+    margin-top: 40px;
+    width:600px;
+    height:260px;
+    background-color: none;
+}
+.works{
+    width: 1000px;
+    height: 1000px;
+    background-color: blue;
+    margin:auto;
+}
+
+.title{
+    width:200px;
+    height:50px;
+    margin-top: 10px;
+    margin-left:110px;
+    font-size: 30px;
+    background-color: red;
+}
+
+.albaList{
+    width:780px;
+    height:700px;
+    margin-top:10px;
+    margin-left: 110px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    background-color: beige;
+}
+
+.alba{
+    width:310px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: red;
+}
+
+.alba a {
+    display: inline-block; /* 또는 display: block; */
+    width: 100%;
+    height: 100%;
+}
+
+.pictures{
+    width:110px;
+    height:110px;
+    border-radius: 10px;
+}
+
+.explain{
+    width:200px;
+    height:120px;
+    margin-left:20px;
+    background-color: aqua;
+}
+.alba_title{
+    font-size: 16px;
+}
+.place{
+    font-size: 12px;
+    color:gray;
+}
+
+.price{
+    font-size:16px;
+}
