@@ -44,7 +44,7 @@ export function BodyWorklist(){
                         </a>
                         <a href="#">
                             <div className="explain">
-                                <p className="alba_title">익산 서동축데 아르바이트 구합니다.</p>
+                                <p className="alba_title">익산 서동축제 아르바이트 구합니다.</p>
                                 <p className='place'>풍선 전라북도 익산시 동산동</p>
                                 <p className='price'>시급 15,000</p>
                             </div>
