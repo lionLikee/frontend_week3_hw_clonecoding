@@ -35,6 +35,7 @@
 
 .nav a:hover{
     color:gray;
+    cursor: pointer;
 }
 
 .nav li{
@@ -66,10 +67,14 @@
     margin-top: 16px;
 }
 
-.beginchat{
+.beginchatBtn{
     width:80px;
     height:43px;
     font-size: 17px;
+}
+
+.beginchatBtn:hover{
+    cursor: pointer;
 }
 
 .notice_up{
@@ -100,6 +105,11 @@
     border-radius: 10px;
 }
 
+.upBtn:hover{
+    background-color: #f85701;
+    cursor: pointer;
+}
+
 .notice_pic{
     margin-top: 40px;
     width:600px;
@@ -108,29 +118,25 @@
 }
 .works{
     width: 1000px;
-    height: 1000px;
-    background-color: blue;
+    height: 800px;
     margin:auto;
 }
 
 .title{
     width:200px;
-    height:50px;
-    margin-top: 10px;
-    margin-left:110px;
+    height:30px;
+    margin-top: 50px;
+    margin-left:140px;
     font-size: 30px;
-    background-color: red;
 }
 
 .albaList{
     width:780px;
     height:700px;
-    margin-top:10px;
     margin-left: 110px;
     display:flex;
     flex-wrap:wrap;
     flex-direction:row;
-    background-color: beige;
 }
 
 .alba{
@@ -138,17 +144,14 @@
     height: 120px;
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
-    margin-left: 20px;
-    background-color: red;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
-.alba a {
-    display: inline-block; /* 또는 display: block; */
-    width: 100%;
-    height: 100%;
+.picture{
+    width:130px;
+    height:100px;
 }
-
 .pictures{
     width:110px;
     height:110px;
@@ -156,19 +159,75 @@
 }
 
 .explain{
-    width:200px;
+    width:180px;
     height:120px;
-    margin-left:20px;
-    background-color: aqua;
+    margin-left:10px;
 }
 .alba_title{
     font-size: 16px;
 }
 .place{
     font-size: 12px;
+    margin-top:5px;
     color:gray;
 }
 
 .price{
     font-size:16px;
+    margin-top:5px;
+}
+
+.freeEx{
+    width:780px;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f7f1eb;
+    margin:auto;
+}
+
+.bannerimage{
+    margin-left: 10px;
+    width:80px;
+    height:80px;
+}
+
+.bannertext{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.Btns{
+    margin-left: 50px;
+}
+
+.freeBtn{
+    width:100px;
+    height:40px;
+    background-color: #fa6616;
+    color:white;
+    border: 0.2px solid #fa6616;
+    border-radius: 10px;
+
+}
+
+.freeBtn:hover{
+    background-color: #f85701;
+    cursor: pointer;
+}
+
+.askBtn{
+    margin-left:20px;
+    width:60px;
+    height:40px;
+    background-color: #ff6f0f33;
+    color:#fa6616;
+    border: 0.2px solid  #ff6f0f33;
+    border-radius: 10px;
+}
+
+.askBtn:hover{
+    background-color:#be4d0233 ;
+    cursor: pointer;
 }
