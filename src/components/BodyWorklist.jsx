@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
+
 import './Carrotmarket.css';
-import logopicture from './logo.png';
-import noticepicture from './header-image.png';
 import pic1 from './1.jpeg';
 import pic2 from './2.jpeg';
 import pic3 from './3.jpeg';
@@ -12,55 +10,10 @@ import pic7 from './7.jpeg';
 import pic8 from './8.jpeg';
 import pic9 from './9.jpeg';
 import pic10 from './10.jpeg';
-import bannerpic from './banner-icon.png';
 
-export function Carrotmarket(){
+export function BodyWorklist(){
     return(
-
-        <div className="container">
-            <div className="header">
-                <a href="#">
-                    <div className="logo">
-                        <img className="logo_pic"  alt="carrot_logo" src={logopicture} />
-                    </div>
-                </a>
-
-                <ul className="nav">
-                    <li><a href="#">중고거래</a></li>
-                    <li><a href="#">동네업체</a></li>
-                    <li><a className="orange_alba" href="#">알바</a></li>
-                    <li><a href="#">부동산</a></li>
-                    <li><a href="#">중고차 직거래</a></li>
-                </ul>
-
-                <div className="inputFind">
-                    <input type="text" className="findInput" placeholder=" 물품이나 동네를 검색해보세요"></input>
-                </div>
-
-                <div className="chat">
-                    <button className="beginchatBtn">채팅하기</button>
-                </div>
-            </div>
-
-            <div className="notice_up">
-                <div className="content1">
-                    <h1>우리 동네에서 찾는</h1>
-                    <h1>당근알바</h1>
-                    <br></br>
-                    <p>걸어서 10분 거리의</p>
-                    <p>동네 알바들 여기 다 있어요.</p>
-                    <br></br>
-                    <div className="noticeUpBtn">
-                        <button className="upBtn">공고 올리기</button>
-                    </div>
-                </div>
-
-                <div className="content2">
-                        <img className="notice_pic"  alt="noticepicture" src={noticepicture} />
-                </div>
-            </div>
-
-            <div className="works">
+        <div className="works">
                 <div className="title">
                     <p>인기 당근알바</p>
                 </div>
@@ -222,25 +175,5 @@ export function Carrotmarket(){
                     
                 </div>
             </div>
-
-            <div className="freeEx">
-                <div className="bannerpic">
-                    <img className="bannerimage"  alt="bannerimage" src={bannerpic} />   
-                </div>
-
-                <div className="bannertext">
-                    <p>대규모 채용이 필요하다면</p>
-                    <p>당근알바 기업용 서비스에 대해 알아보세요!</p>
-                </div>
-
-                <div className="Btns">
-                    <button className="freeBtn">7일 무료 체험</button>
-                    <button className="askBtn">1:1 문의</button>
-                </div>
-
-        
-            </div>
-        </div>
-
     );
 }
